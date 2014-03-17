@@ -57,7 +57,11 @@ input { vertical-align: middle; margin: 0; }
     border-bottom: 1px solid #c8cdce;
     padding-bottom: 13px;
 }
-
+.h3 {
+    font: 18px/24px Arial;
+    padding-bottom: 11px;
+    margin-bottom: 10px;
+}
 
 
 .header_info_wrapper, .footer_info_wrapper {
@@ -352,10 +356,7 @@ ul li a.active {
     border-radius: 5px;
 }
 .right_column .block_text .h3 {
-    font: 18px/24px Arial;
     border-bottom: 1px solid #c8cdce;
-    padding-bottom: 11px;
-    margin-bottom: 10px;
 }
 .right_column .block_text p {
     color: #8b8b8b;
@@ -460,15 +461,23 @@ ul li a.active {
     font-size: 20px;
     vertical-align: middle;
 }
+.catalog_item__description .price .compare {
+    margin-left: 20px;
+    font-size: 14px;
+    vertical-align: middle;
+    border-bottom: 1px dashed #178eab;
+}
 
 
-.catalog_item__description .price button {
+
+button, input[type="submit"] {
     color: white;
     padding: 5px 10px;
     margin: 0;
     vertical-align: middle;
     font-size: 17px;
     cursor: pointer;
+    height: auto;
 
     background: rgb(255,176,38); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -492,11 +501,33 @@ ul li a.active {
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
-.catalog_item__description .price button:active {
+button:active, input[type="submit"]:active {
     border: none;
     padding-top: 7px;
 }
 
+
+/* product detail */
+.product .left {
+    width: 200px;
+    overflow: hidden
+}
+.product .right {
+    width: 100%;
+    margin-left: 220px;
+    float: none;
+}
+
+
+.block_reviews textarea {
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.block_reviews__item_date {
+    color: #9d9994;
+    font-size: 12px;
+}
+/* /.product detail */
 
 
 

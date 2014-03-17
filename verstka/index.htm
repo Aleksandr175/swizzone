@@ -8,9 +8,11 @@
     <title>Главная - SwizZone.ru</title>
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
-
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.css">
 
 </head>
 <body>
@@ -151,27 +153,27 @@
                 <div class="catalog">
                     <div class="catalog_item">
                         <div class="catalog_item__img">
-                            <img src="images/coffe1.png">
+                            <img src="images/coffe1.png" width="100%">
                         </div>
                         <div class="catalog_item__description">
                             <p class="type">Кофеварка эспрессо</p>
                             <p class="title"><a href="#">Saeco Royal Cappuccino</a></p>
                             <p>Кофемашина. Мощность: 2300 Вт. Емкость для воды: 2,4 л. Емкость контейнера для кофе в зернах: 300 г. Дисплей. Автокапучинатор. Одновременное взбивание молока и приготовление эспрессо !(2 бойлера). Регулировка количества кофе на порцию. Цвет: серебристый/серый.</p>
                             <div class="price">
-                                <span>32 000 Р</span><button>В корзину</button>
+                                <span>15 000 Р</span><button>В корзину</button><a class="compare" href="">Сравнить</a>
                             </div>
                         </div>
                     </div>
                     <div class="catalog_item">
                         <div class="catalog_item__img">
-                            <img src="images/coffe2.png">
+                            <img src="images/coffe2.png" width="100%">
                         </div>
                         <div class="catalog_item__description">
                             <p class="type">Кофеварка эспрессо</p>
                             <p class="title"><a href="#">Saeco Royal Cappuccino</a></p>
                             <p>Кофемашина. Мощность: 2300 Вт. Емкость для воды: 2,4 л. Емкость контейнера для кофе в зернах: 300 г. Дисплей. Автокапучинатор. Одновременное взбивание молока и приготовление эспрессо !(2 бойлера). Регулировка количества кофе на порцию. Цвет: серебристый/серый.</p>
                             <div class="price">
-                                <span>8 000 Р</span><button>В корзину</button>
+                                <span>32 000 Р</span><button>В корзину</button><a class="compare" href="">Сравнить</a>
                             </div>
                         </div>
                     </div>
@@ -183,27 +185,27 @@
                 <div class="catalog">
                     <div class="catalog_item">
                         <div class="catalog_item__img">
-                            <img src="images/vol1.png">
+                            <img src="images/vol1.png" width="100%">
                         </div>
                         <div class="catalog_item__description">
                             <p class="type">Кофеварка эспрессо</p>
                             <p class="title"><a href="#">Saeco Royal Cappuccino</a></p>
                             <p>Кофемашина. Мощность: 2300 Вт. Емкость для воды: 2,4 л. Емкость контейнера для кофе в зернах: 300 г. Дисплей. Автокапучинатор. Одновременное взбивание молока и приготовление эспрессо !(2 бойлера). Регулировка количества кофе на порцию. Цвет: серебристый/серый.</p>
                             <div class="price">
-                                <span>530 Р</span><button>В корзину</button>
+                                <span>530 Р</span><button>В корзину</button><a class="compare" href="">Сравнить</a>
                             </div>
                         </div>
                     </div>
                     <div class="catalog_item">
                         <div class="catalog_item__img">
-                            <img src="images/vol2.png">
+                            <img src="images/vol2.png" width="100%">
                         </div>
                         <div class="catalog_item__description">
                             <p class="type">Кофеварка эспрессо</p>
                             <p class="title"><a href="#">Saeco Royal Cappuccino</a></p>
                             <p>Кофемашина. Мощность: 2300 Вт. Емкость для воды: 2,4 л. Емкость контейнера для кофе в зернах: 300 г. Дисплей. Автокапучинатор. Одновременное взбивание молока и приготовление эспрессо !(2 бойлера). Регулировка количества кофе на порцию. Цвет: серебристый/серый.</p>
                             <div class="price">
-                                <span>3 000 Р</span><button>В корзину</button>
+                                <span>530 Р</span><button>В корзину</button><a class="compare" href="">Добавлено к сравнению</a>
                             </div>
                         </div>
                     </div>
@@ -286,6 +288,69 @@
                 <textarea>Текст в поле</textarea>
                 <input type="checkbox"><label>Чекбокс</label><br>
                 <input type="radio"><label>Чекбокс</label>
+
+
+
+                <div class="product">
+                    <div class="left">
+                        <img src="images/vol2.png" width="100%">
+                    </div>
+                    <div class="right catalog_item__description">
+                        <p class="type">Кофеварка эспрессо</p>
+                        <p class="title"><a href="#">Saeco Royal Cappuccino</a></p>
+                        <p>Кофемашина. Мощность: 2300 Вт. Емкость для воды: 2,4 л. Емкость контейнера для кофе в зернах: 300 г. Дисплей. Автокапучинатор. Одновременное взбивание молока и приготовление эспрессо !(2 бойлера). Регулировка количества кофе на порцию. Цвет: серебристый/серый.</p>
+                        <div class="price">
+                            <span>530 Р</span><button>В корзину</button><a class="compare" href="">Сравнить</a>
+                        </div>
+                    </div>
+
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">Характеристики</a></li>
+                            <li><a href="#tabs-2">Отзывы</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <table>
+                                <tr>
+                                    <td>Название поля</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>Название поля</td>
+                                    <td>78</td>
+                                </tr>
+                                <tr>
+                                    <td>Название поля</td>
+                                    <td>1432</td>
+                                </tr>
+                                <tr>
+                                    <td>Название поля</td>
+                                    <td>12</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="tabs-2" class="block_reviews">
+                            <div class="block_review__item">
+                                <div class="block_reviews__item_date">23.09.13</div>
+                                <p class="block_reviews__item_text">Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                            </div>
+                            <div class="block_review__item">
+                                <div class="block_reviews__item_date">23.09.13</div>
+                                <p class="block_reviews__item_text">Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                            </div>
+                            <div class="block_review__item">
+                                <div class="block_reviews__item_date">23.09.13</div>
+                                <p class="block_reviews__item_text">Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                            </div>
+                            
+                            <h3 class="h3">Добавить отзыв</h3>
+                            <form action="#" method="POST">
+                                <textarea></textarea>
+                                <input type="submit" value="Добавить отзыв" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>
