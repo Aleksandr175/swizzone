@@ -581,12 +581,13 @@ button:active, input[type="submit"]:active {
 }
 .product .left {
     width: 200px;
-    overflow: hidden
+    overflow: hidden;
+    margin-bottom: 30px;
 }
 .product .right {
-    width: 100%;
     margin-left: 220px;
     float: none;
+    margin-bottom: 30px;
 }
 
 
